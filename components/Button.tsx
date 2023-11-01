@@ -11,9 +11,16 @@ import Image from 'next/image';
 const Button = ({ type, title, icon, variant }: ButtonProps) => {
     return (
         <button type={type} className={`flex items-center gap-2 justify-center rounded-full border ${variant}`}>
-            {icon && <Image src={icon} alt={title} width={24} height={24}></Image>}
+            {icon && <Image
+                loading={"lazy"}
+                src={icon}
+                alt={title}
+                width={24}
+                height={32}
+                className="w-full h-auto"
+            />}
             <label className='bold-16'>{title}</label>
-        </button>
+        </button >
     )
 }
 

@@ -14,9 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body suppressHydrationWarning={true}>
         <Navbar></Navbar>
-        <main className='relative overflow-hidden'>
+        <main className='relative'>
           {children}
         </main>
       </body>

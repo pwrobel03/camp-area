@@ -12,6 +12,7 @@
 
 body {
   font-family: Inter;
+  margin: 0 auto;
 }
 
 @layer utilities {
@@ -36,7 +37,7 @@ body {
   }
 
   .max-container {
-    @apply mx-auto max-w-[1440px];
+    @apply mx-6 max-w-[1440px];
   }
 
   .padding-container {
