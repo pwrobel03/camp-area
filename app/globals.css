@@ -60,6 +60,15 @@ body {
   }
 
   /* FONTS */
+  .regular-quotes {
+    @apply text-[8px] font-[200];
+    @apply xs:text-[10px] xs:font-[300];
+    @apply sm:text-[12px] sm:font-[400];
+    @apply md:text-[14px] md:font-[400];
+    @apply lg:text-[16px] lg:font-[400];
+    @apply xl:text-[18px] xl:font-[500];
+  }
+
   .regular-menu {
     @apply text-[12px] font-[200];
     @apply xs:text-[14px] xs:font-[300];
