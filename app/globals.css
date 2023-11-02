@@ -96,6 +96,14 @@ body {
     @apply xl:text-[72px] xl:font-[800];
   }
 
+  .bold {
+    @apply font-[700]
+  }
+
+  .super-bold {
+    @apply font-[900]
+  }
+
   .regular-sm {
     @apply text-[12] font-[300]
   }
