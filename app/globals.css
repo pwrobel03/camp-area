@@ -61,12 +61,12 @@ body {
 
   /* FONTS */
   .regular-menu {
-    @apply text-[14px] font-[200];
-    @apply xs:text-[16px] xs:font-[300];
-    @apply sm:text-[18px] sm:font-[400];
-    @apply md:text-[20px] md:font-[400];
-    @apply lg:text-[24px] lg:font-[400];
-    @apply xl:text-[28px] xl:font-[500];
+    @apply text-[12px] font-[200];
+    @apply xs:text-[14px] xs:font-[300];
+    @apply sm:text-[16px] sm:font-[400];
+    @apply md:text-[18px] md:font-[400];
+    @apply lg:text-[20px] lg:font-[400];
+    @apply xl:text-[24px] xl:font-[500];
   }
 
   .regular {

@@ -34,9 +34,9 @@ const Hero = () => {
             ))}
           </div>
 
-          <p className="regular font-bold text-blue-70">
+          <p className="regular font-bold text-blue-70 flex items-center">
             198k
-            <span className="regular ml-1">Excellent Reviews</span>
+            <span className="regular-menu ml-1">Excellent Reviews</span>
           </p>
         </div>
 
@@ -60,7 +60,7 @@ const Hero = () => {
 
           <div className="flex flex-col">
             <div className="flexBetween">
-              <p className="regular text-gray-20">Location</p>
+              <p className="regular-menu text-gray-20">Location</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
             <p className="regular text-white">Aguas Calientes</p>
@@ -68,11 +68,11 @@ const Hero = () => {
 
           <div className="flexBetween gap-6">
             <div className="flex flex-col">
-              <p className="regular block text-gray-20">Distance</p>
+              <p className="regular-menu block text-gray-20">Distance</p>
               <p className="regular text-white">173.28 mi</p>
             </div>
             <div className="flex flex-col">
-              <p className="regular block text-gray-20">Elevation</p>
+              <p className="regular-menu block text-gray-20">Elevation</p>
               <p className="regular text-white">2.040 km</p>
             </div>
           </div>
