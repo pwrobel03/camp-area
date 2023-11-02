@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body suppressHydrationWarning={true}>
         <Navbar></Navbar>
-        <main className='relative'>
+        <main className='relative mx-6 overflow-hidden max-container padding-container '>
           {children}
         </main>
       </body>
