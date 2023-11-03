@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Camp from '@/components/Camp'
 import Guide from '@/components/Guide'
 import Features from '@/components/Features'
+import Cta from '@/components/Cta'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Camp />
       <Guide />
       <Features />
+      <Cta />
     </>
   )
 }

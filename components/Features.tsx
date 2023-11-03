@@ -6,7 +6,7 @@ import { FEATURES } from '@/constants'
 const Features = () => {
     return (
         <section className="max-container padding-container relative bg-feature-bg bg-no-repeat bg-center flex flex-row py-10 lg:py-20">
-            <div className="flex flex-1 lg:min-h-[1100px]">
+            <div className="flex flex-1">
                 <Image
                     src="/phone.png"
                     alt='phone'
@@ -28,20 +28,21 @@ const Features = () => {
                 <ul className='grid md:grid-cols-2 gap-10'>
                     {FEATURES.map(feature => (
                         <li className='flex flex-col '>
-                            <div className='flex sm:flex-col flex-row items-center gap-2 '>
+                            <div className='flex md:flex-col flex-row md:items-start items-center gap-2 '>
                                 <div className='flex max-w-[64px] bg-green-50 p-5 rounded-full'>
                                     <Image
                                         src={feature.icon}
                                         alt={feature.title}
                                         width={28}
                                         height={28}
+                                        className='h-auto w-auto'
                                     />
                                 </div>
                                 <h2 className="regular bold">
                                     {feature.title}
                                 </h2>
                             </div>
-                            <p className="regular mt-2 text-gray-30">
+                            <p className="regular-menu mt-2 text-gray-30">
                                 {feature.description}
                             </p>
                         </li>
